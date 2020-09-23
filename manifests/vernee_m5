@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+<remote  name="aosp"
+     fetch="https://android.googlesource.com"
+     review="android-review.googlesource.com"
+     revision="refs/tags/android-7.1.1_r25" />
+
+    <project path="device/vernee/m5" name="Halium/android_device_vernee_m5" remote="aosp" />
+
+    <project path="kernel/vernee/m5" name="Halium/android_kernel_vernee_m5" remote="aosp" />
+
+    <project path="vendor/vernee" name="proprietary_vendor_vernee" remote="aosp" />
+
+
+</manifest>
